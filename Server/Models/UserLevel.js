@@ -13,7 +13,7 @@ User_level.init({
         primaryKey: true,
         unique: true,
         defaultValue: function () {
-            return uniqueIdPack.generateRandomId('User')
+            return uniqueIdPack.generateRandomId('_UserLevel')
         },
     },
     designation: {
